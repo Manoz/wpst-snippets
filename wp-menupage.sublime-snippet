@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[/**
+ * Register menu page
+ *
+ * @link http://codex.wordpress.org/Function_Reference/add_menu_page
+ */
+add_action( 'admin_menu', '${1:my_menu_page}' );
+function ${1:my_menu_page}()
+{
+
+    add_menu_page(
+        __( '${2:My page title}', '${3:text_domain}'),
+        __( '${4:My menu title}', '${3:text_domain}'),
+        '${5:edit_theme_options}',
+        '${6:my-menu-slug}',
+        '${7:my_menu_function}',
+        plugins_url( '${8:myplugin/images/icon.png}' ),
+        ${9:6} // Menu Position
+    );
+
+}
+
+function ${7:my_menu_function}()
+{
+
+    ${10:// My page content}
+
+}
+]]></content>
+    <tabTrigger>wpmenupage</tabTrigger>
+    <scope>text.html, source.php</scope>
+    <description>WP: Add menu page.</description>
+</snippet>
