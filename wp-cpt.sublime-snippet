@@ -49,7 +49,7 @@ function ${1:my_function_name}()
 add_action( 'init', '${1:my_function_name}', ${34:0} );
 $35
 ]]></content>
-    <tabTrigger>cpt</tabTrigger>
+    <tabTrigger>wpcpt</tabTrigger>
     <scope>text.html, source.php</scope>
     <description>WP: Custom Post Types</description>
 </snippet>
