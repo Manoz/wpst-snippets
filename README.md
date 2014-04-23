@@ -1,4 +1,5 @@
-wpst-snippets
-=============
+My WordPress Snippets
+=====================
 
-My custom WordPress snippets for Sublime Text
+**Register custom post type:** wpcpt>tab
+**Register menu page:** wpmenupage>tab
